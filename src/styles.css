@@ -1,0 +1,43 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  html,
+  body,
+  #root {
+    width: 100vw;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  
+  body {
+    color: white;
+    user-select: none;
+  }
+  
+  .annotation {
+    outline: none;
+    border: none;
+    font-size: 3px;
+    font-weight: 800;
+    background: black;
+    color: #f0f0f0;
+    padding: 4px 12px;
+    border-radius: 2px;
+    letter-spacing: 0.1px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    font-family: sans-serif;
+  }
+
+  .button {
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+  }
