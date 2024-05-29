@@ -127,7 +127,7 @@ function CustomTexts() {
   return (
     <>
       <Text font="/PirataOne-Regular.woff" color={'black'} maxWidth={3} anchorX="center" anchorY="top" position={[0, 3.4, 0]} fontSize={0.15}>
-      Naga Apparel & Soul Entertainment presents     </Text>
+      Naga Apparel, Soul Entertainment, Lauren Lounge presents     </Text>
       <Float
         speed={1} // Animation speed, defaults to 1
         rotationIntensity={0.3} // XYZ rotation intensity, defaults to 1
