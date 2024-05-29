@@ -5,7 +5,7 @@ import { useCursor, MeshReflectorMaterial, Image, Text, Environment, Html, Float
 import { useRoute, useLocation } from 'wouter'
 import { easing } from 'maath'
 import getUuid from 'uuid-by-string'
-import backgroundImage from '../src/images/background2.jpg'
+import backgroundImage from '../src/images/background4.jpg'
 import { DoubleSide } from 'three'
 import { Vignette, EffectComposer, Noise, Bloom } from '@react-three/postprocessing'
 import { isMobile } from 'react-device-detect'
@@ -14,7 +14,7 @@ const GOLDENRATIO = 1.61803398875
 
 export const App = ({ images }) => (
   <Canvas dpr={[1, 1.5]} camera={{ fov: 70, position: [0, 2, 15] }}>
-    <color attach="background" args={['#24172F']} />
+    <color attach="background" args={['#181B1A']} />
 
     <group position={[0, -0.5, 0]}>
       <Frames images={images} />
@@ -32,7 +32,7 @@ export const App = ({ images }) => (
           depthScale={1.1}
           minDepthThreshold={0.4}
           maxDepthThreshold={1.3}
-          color="#211727"
+          color="#181B1A"
           metalness={0.8}
         />
       </mesh>
@@ -187,12 +187,12 @@ function CustomBackground() {
       >
         <mesh scale={[1, 1, 1]} position={[0, 8.5, 0]}>
           <cylinderBufferGeometry args={[20, 20, isMobile ? 28 : 20, 15, 6, true, 2.1, Math.PI / 1.5]} />
-          <meshBasicMaterial side={DoubleSide} map={texture} color="#aa62b3" toneMapped={false} />
+          <meshBasicMaterial side={DoubleSide} map={texture} color="#92A19A" toneMapped={false} />
         </mesh>
       </Float>
       <mesh scale={[1, 1, 1]} position={[0, 7.5, -6]}>
         <cylinderBufferGeometry args={[18, 18, 20, 15, 6, true, 0, Math.PI * 2]} />
-        <meshBasicMaterial side={DoubleSide} map={texture} color="#aa62b3" toneMapped={true} />
+        <meshBasicMaterial side={DoubleSide} map={texture} color="#181B1A" toneMapped={true} />
       </mesh>
     </group>
   )
