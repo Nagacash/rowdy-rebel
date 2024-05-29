@@ -41,3 +41,8 @@
     text-align: center;
     text-decoration: none;
   }
+
+  .tickets {
+     text-decoration: none;
+     color: rgb(12, 12, 12);
+  }

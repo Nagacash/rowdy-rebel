@@ -116,7 +116,7 @@ function Frame({ url, c = new THREE.Color(), ...props }) {
           <div className="annotation">
             <span style={{ fontSize: '1.5em', fontFamily: 'sans-serif' }}> Live On Stage {itemName}</span>
           </div>
-          <div><button type="button"><a href="https://www.fatsoma.com/p/remix/events">"Your tickets!</a></button></div>
+          <div><button type="button"><a href="https://www.fatsoma.com/p/remix/events" className='tickets'>Buy Your Tickets!</a></button></div>
         </Html>
       </mesh>
     </group>
