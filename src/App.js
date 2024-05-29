@@ -162,7 +162,8 @@ function CustomTexts() {
         </Text>
       </Float>
       <Text maxWidth={1} anchorX="center" anchorY="top" textAlign="center" position={[0, 0.3, 1]} fontSize={0.1} depthOffset={1}>
-        Click on images to view details. Get your Tickets.
+        Click on images to view details and GET YOUR TICKETS NOW.
+        All Dates: MANCHESTER, LONDON, NOTHINGHAM, BRISTOL, BIRMINGHAM
 
         
       </Text>
