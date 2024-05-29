@@ -162,7 +162,9 @@ function CustomTexts() {
         </Text>
       </Float>
       <Text maxWidth={1} anchorX="center" anchorY="top" textAlign="center" position={[0, 0.3, 1]} fontSize={0.1} depthOffset={1}>
-        Click on images to view details. Please vote on twiter on your favourite concept.
+        Click on images to view details. Get your Tickets.
+
+        
       </Text>
     </>
   )
